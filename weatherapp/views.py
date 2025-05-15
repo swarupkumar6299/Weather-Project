@@ -11,13 +11,13 @@ def home(request):
     else:
         city = 'Hyderabad'
 
-    weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=9c449d50d466827446ccac5647654aa9'
+    weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid='
 
     weather_params = {'units': 'metric'}
 # Google Searc API
-    API_KEY = 'AIzaSyB5Erf23ZM8UrkLAsqJDwx9DbLYsOsn15s'
+    API_KEY = ''
 
-    SEARCH_ENGINE_ID = 'e66ccbc6d1950499c'
+    SEARCH_ENGINE_ID = ''
 
     query = city + " 1920x1080"
     search_url = (
